@@ -5,7 +5,7 @@
 
 ```
 $ docker import export.zip bind9-it23:latest
-$ docker run -d --name bind9-it23 -p 53:53 -p 30053:53/udp bind9-it23:latest
+$ docker run -d --name bind9-it23 -p 53:53 -p 53:53/udp bind9-it23:latest
 ```
 
 ##### Lösung
